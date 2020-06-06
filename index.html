@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1><a href="index.html">Museu Nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="Foto do museu">
+                </section>
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o Museu Nacional</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7350.326540518047!2d-43.22359868752057!3d-22.907347984714264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e6990c18c1fcdfd!2sBiblioteca%20do%20Museu%20Nacional%20da%20UFRJ!5e0!3m2!1sru!2sbr!4v1576008920329!5m2!1sru!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luiza, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dente-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil central</a></li>
+                            <li><a href="#">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte com Dinossauros - Paleoarte</a></li>
+                            <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                        </p>
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="Depoimento sobre Museu">
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Visitantes</label>
+                            <input class="campo" style="width: 30px" type="text" id="visitantes" value="1">
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="#"><img src="imagens/imagem1.jpg" alt=""></a>
+                    <a href="#"><img src="imagens/imagem2.jpg" alt=""></a>
+                    <a href="#"><img src="imagens/imagem3.jpg" alt=""></a>
+                    <a href="#"><img src="imagens/imagem4.jpg" alt=""></a>
+                </section>
+            </aside>
+            <footer>
+                <p>
+                    <a href="#">Início</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Vídeos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p>
+                    2019 <a href="index.html">Museu Nacional</a> - Todos os direitos reservados. &copy;
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
